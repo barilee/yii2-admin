@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\components;
+namespace barilee\yii2\auth\rbac\components;
 
 use yii\web\ForbiddenHttpException;
 use yii\base\Module;
