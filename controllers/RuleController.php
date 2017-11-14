@@ -1,15 +1,15 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace barilee\yii2\auth\rbac\controllers;
 
 use Yii;
-use mdm\admin\models\BizRule;
+use barilee\yii2\auth\rbac\models\BizRule;
 use yii\web\Controller;
-use mdm\admin\models\searchs\BizRule as BizRuleSearch;
+use barilee\yii2\auth\rbac\models\searchs\BizRule as BizRuleSearch;
 use yii\filters\VerbFilter;
 use yii\web\NotFoundHttpException;
-use mdm\admin\components\Helper;
-use mdm\admin\components\Configs;
+use barilee\yii2\auth\rbac\components\Helper;
+use barilee\yii2\auth\rbac\components\Configs;
 
 /**
  * Description of RuleController
