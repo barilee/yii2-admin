@@ -35,21 +35,21 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require mdmsoft/yii2-admin "~1.0"
+php composer.phar require barilee/yii2-auth-rbac "~1.0"
 or
-php composer.phar require mdmsoft/yii2-admin "~2.0"
+php composer.phar require barilee/yii2-auth-rbac "~2.0"
 ```
 
 or for the dev-master
 
 ```
-php composer.phar require mdmsoft/yii2-admin "2.x-dev"
+php composer.phar require barilee/yii2-auth-rbac "2.x-dev"
 ```
 
 Or, you may add
 
 ```
-"mdmsoft/yii2-admin": "~2.0"
+"barilee/yii2-auth-rbac": "~2.0"
 ```
 
 to the require section of your `composer.json` file and execute `php composer.phar update`.
@@ -64,7 +64,7 @@ return [
     ...
     'aliases' => [
         '@barilee/yii2/auth/rbac' => 'path/to/your/extracted',
-        // for example: '@barilee/yii2/auth/rbac' => '@app/extensions/mdm/yii2-admin-2.0.0',
+        // for example: '@barilee/yii2/auth/rbac' => '@app/extensions/barilee/yii2-auth-rbac-2.0.0',
         ...
     ]
 ];
