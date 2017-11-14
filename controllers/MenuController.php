@@ -1,14 +1,14 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace barilee\yii2\auth\rbac\controllers;
 
 use Yii;
-use mdm\admin\models\Menu;
-use mdm\admin\models\searchs\Menu as MenuSearch;
+use barilee\yii2\auth\rbac\models\Menu;
+use barilee\yii2\auth\rbac\models\searchs\Menu as MenuSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use mdm\admin\components\Helper;
+use barilee\yii2\auth\rbac\components\Helper;
 
 /**
  * MenuController implements the CRUD actions for Menu model.
