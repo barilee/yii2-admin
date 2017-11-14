@@ -3,8 +3,8 @@
 namespace barilee\yii2\auth\rbac\controllers;
 
 use Yii;
-use mdm\admin\models\Assignment;
-use mdm\admin\models\searchs\Assignment as AssignmentSearch;
+use barilee\yii2\auth\rbac\models\Assignment;
+use barilee\yii2\auth\rbac\models\searchs\Assignment as AssignmentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
