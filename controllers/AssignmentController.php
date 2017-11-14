@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace barilee\yii2\auth\rbac\controllers;
 
 use Yii;
 use mdm\admin\models\Assignment;
