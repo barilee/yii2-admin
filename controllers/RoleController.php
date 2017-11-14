@@ -1,8 +1,8 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace barilee\yii2\auth\rbac\controllers;
 
-use mdm\admin\components\ItemController;
+use barilee\yii2\auth\rbac\components\ItemController;
 use yii\rbac\Item;
 
 /**
