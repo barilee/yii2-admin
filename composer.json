@@ -1,17 +1,21 @@
 {
-    "name": "mdmsoft/yii2-admin",
-    "description": "RBAC Auth manager for Yii2 ",
-    "keywords": ["yii", "admin", "auth", "rbac"],
+    "name": "barilee/yii2-auth-rbac",
+    "description": "RBAC Authentication manager for Yii2 ",
+    "keywords": ["yii2", "admin", "auth", "rbac", "authentication", "role based", "administration"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/mdmsoft/yii2-admin/issues",
-        "source": "https://github.com/mdmsoft/yii2-admin"
+        "issues": "https://github.com/barilee/yii2-auth-rbac/issues",
+        "source": "https://github.com/barilee/yii2-auth-rbac"
     },
     "authors": [
         {
             "name": "Misbahul Munir",
             "email": "misbahuldmunir@gmail.com"
+        },
+        {
+            "name": "Barilee Apenu",
+            "email": "barileeapenu@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -26,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mdm\\admin\\": ""
+            "barilee\\yii2\\auth\\rbac\\": ""
         }
     },
     "extra": {
