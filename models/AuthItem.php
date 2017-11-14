@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\models;
+namespace barilee\yii2\auth\rbac\models;
 
-use mdm\admin\components\Configs;
-use mdm\admin\components\Helper;
+use barilee\yii2\auth\rbac\components\Configs;
+use barilee\yii2\auth\rbac\components\Helper;
 use Yii;
 use yii\base\Model;
 use yii\helpers\Json;

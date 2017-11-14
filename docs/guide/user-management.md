@@ -4,14 +4,14 @@ User Management
 For `basic application template` that want to have user stored in database.
 To use this feature, create required table by execute migration.
 ```
-./yii migrate --migrationPath=@mdm/admin/migrations
+./yii migrate --migrationPath=@barilee/yii2/auth/rbac/migrations
 ```
 Then, change config of user component
 ```php
     'components' => [
         ...
         'user' => [
-            'identityClass' => 'mdm\admin\models\User',
+            'identityClass' => 'barilee\yii2\auth\rbac\models\User',
             'loginUrl' => ['admin/user/login'],
         ]
     ]

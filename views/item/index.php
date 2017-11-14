@@ -2,13 +2,13 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use mdm\admin\components\RouteRule;
-use mdm\admin\components\Configs;
+use barilee\yii2\auth\rbac\components\RouteRule;
+use barilee\yii2\auth\rbac\components\Configs;
 
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
-/* @var $searchModel mdm\admin\models\searchs\AuthItem */
-/* @var $context mdm\admin\components\ItemController */
+/* @var $searchModel barilee\yii2\auth\rbac\models\searchs\AuthItem */
+/* @var $context barilee\yii2\auth\rbac\components\ItemController */
 
 $context = $this->context;
 $labels = $context->labels();

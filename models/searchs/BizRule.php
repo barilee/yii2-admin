@@ -1,13 +1,13 @@
 <?php
 
-namespace mdm\admin\models\searchs;
+namespace barilee\yii2\auth\rbac\models\searchs;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ArrayDataProvider;
-use mdm\admin\models\BizRule as MBizRule;
-use mdm\admin\components\RouteRule;
-use mdm\admin\components\Configs;
+use barilee\yii2\auth\rbac\models\BizRule as MBizRule;
+use barilee\yii2\auth\rbac\components\RouteRule;
+use barilee\yii2\auth\rbac\components\Configs;
 
 /**
  * Description of BizRule

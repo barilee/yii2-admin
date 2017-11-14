@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin;
+namespace barilee\yii2\auth\rbac;
 
 use Yii;
 use yii\helpers\Inflector;
@@ -15,7 +15,7 @@ use yii\helpers\Inflector;
  * 'layout' => 'left-menu', // default to null mean use application layout.
  * 'controllerMap' => [
  *     'assignment' => [
- *         'class' => 'mdm\admin\controllers\AssignmentController',
+ *         'class' => 'barilee\yii2\auth\rbac\controllers\AssignmentController',
  *         'userClassName' => 'app\models\User',
  *         'idField' => 'id'
  *     ]
@@ -50,7 +50,7 @@ class Module extends \yii\base\Module
      * @var string Main layout using for module. Default to layout of parent module.
      * Its used when `layout` set to 'left-menu', 'right-menu' or 'top-menu'.
      */
-    public $mainLayout = '@mdm/admin/views/layouts/main.php';
+    public $mainLayout = '@barilee/yii2/auth/rbac/views/layouts/main.php';
     /**
      * @var array
      * @see [[menus]]
@@ -95,7 +95,7 @@ class Module extends \yii\base\Module
             Yii::$app->i18n->translations['rbac-admin'] = [
                 'class' => 'yii\i18n\PhpMessageSource',
                 'sourceLanguage' => 'en',
-                'basePath' => '@mdm/admin/messages',
+                'basePath' => '@barilee/yii2/auth/rbac/messages',
             ];
         }
 
@@ -107,7 +107,7 @@ class Module extends \yii\base\Module
             ];
         }
         if (class_exists('yii\jui\JuiAsset')) {
-            Yii::$container->set('mdm\admin\AutocompleteAsset', 'yii\jui\JuiAsset');
+            Yii::$container->set('barilee\yii2\auth\rbac\AutocompleteAsset', 'yii\jui\JuiAsset');
         }
     }
 

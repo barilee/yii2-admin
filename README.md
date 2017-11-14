@@ -63,8 +63,8 @@ In your application config, add the path alias for this extension.
 return [
     ...
     'aliases' => [
-        '@mdm/admin' => 'path/to/your/extracted',
-        // for example: '@mdm/admin' => '@app/extensions/mdm/yii2-admin-2.0.0',
+        '@barilee/yii2/auth/rbac' => 'path/to/your/extracted',
+        // for example: '@barilee/yii2/auth/rbac' => '@app/extensions/mdm/yii2-admin-2.0.0',
         ...
     ]
 ];

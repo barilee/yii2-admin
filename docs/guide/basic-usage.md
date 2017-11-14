@@ -9,11 +9,11 @@ Using module in configuration
 'modules' => [
     ...
     'admin' => [
-        'class' => 'mdm\admin\Module',
+        'class' => 'barilee\yii2\auth\rbac\Module',
         'layout' => 'left-menu', // it can be '@path/to/your/layout'.
         'controllerMap' => [
             'assignment' => [
-                'class' => 'mdm\admin\controllers\AssignmentController',
+                'class' => 'barilee\yii2\auth\rbac\controllers\AssignmentController',
                 'userClassName' => 'app\models\User',
                 'idField' => 'user_id'
             ],
@@ -37,11 +37,11 @@ Access Control Filter (ACF) is a simple authorization method that is best used b
 As its name indicates, ACF is an action filter that can be attached to a controller or a module as a behavior.
 ACF will check a set of access rules to make sure the current user can access the requested action.
 
-The code below shows how to use ACF which is implemented as `mdm\admin\components\AccessControl`:
+The code below shows how to use ACF which is implemented as `barilee\yii2\auth\rbac\components\AccessControl`:
 
 ```php
 'as access' => [
-    'class' => 'mdm\admin\components\AccessControl',
+    'class' => 'barilee\yii2\auth\rbac\components\AccessControl',
     'allowActions' => [
         'site/login',
         'site/error',
@@ -53,7 +53,7 @@ Filter ActionColumn Buttons
 ---------------------------
 When you use `GridView`, you can also filtering button visibility.
 ```php
-use mdm\admin\components\Helper;
+use barilee\yii2\auth\rbac\components\Helper;
 
 'columns' => [
     ...
@@ -67,7 +67,7 @@ It will check authorization access of button and show or hide it.
 
 To check access for route, you can use
 ```php
-use mdm\admin\components\Helper;
+use barilee\yii2\auth\rbac\components\Helper;
 
 if(Helper::checkRoute('delete')){
     echo Html::a(Yii::t('rbac-admin', 'Delete'), ['delete', 'id' => $model->name], [

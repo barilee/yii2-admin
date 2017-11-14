@@ -1,10 +1,10 @@
 <?php
 
-namespace mdm\admin\models;
+namespace barilee\yii2\auth\rbac\models;
 
 use Yii;
 use yii\rbac\Rule;
-use mdm\admin\components\Configs;
+use barilee\yii2\auth\rbac\components\Configs;
 
 /**
  * BizRule

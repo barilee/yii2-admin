@@ -1,11 +1,11 @@
 <?php
 
-namespace mdm\admin\models\searchs;
+namespace barilee\yii2\auth\rbac\models\searchs;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ArrayDataProvider;
-use mdm\admin\components\Configs;
+use barilee\yii2\auth\rbac\components\Configs;
 use yii\rbac\Item;
 
 /**

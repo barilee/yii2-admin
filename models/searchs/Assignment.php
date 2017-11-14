@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\models\searchs;
+namespace barilee\yii2\auth\rbac\models\searchs;
 
 use Yii;
 use yii\base\Model;

@@ -1,13 +1,13 @@
 <?php
 
-namespace mdm\admin\models;
+namespace barilee\yii2\auth\rbac\models;
 
 use Yii;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;
-use mdm\admin\components\Configs;
+use barilee\yii2\auth\rbac\components\Configs;
 
 /**
  * User model

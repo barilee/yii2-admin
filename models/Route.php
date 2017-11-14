@@ -1,11 +1,11 @@
 <?php
 
-namespace mdm\admin\models;
+namespace barilee\yii2\auth\rbac\models;
 
 use Exception;
-use mdm\admin\components\Configs;
-use mdm\admin\components\Helper;
-use mdm\admin\components\RouteRule;
+use barilee\yii2\auth\rbac\components\Configs;
+use barilee\yii2\auth\rbac\components\Helper;
+use barilee\yii2\auth\rbac\components\RouteRule;
 use Yii;
 use yii\caching\TagDependency;
 use yii\helpers\VarDumper;

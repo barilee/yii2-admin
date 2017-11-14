@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\models\form;
+namespace barilee\yii2\auth\rbac\models\form;
 
 use Yii;
-use mdm\admin\models\User;
+use barilee\yii2\auth\rbac\models\User;
 use yii\base\Model;
 
 /**

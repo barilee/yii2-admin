@@ -1,8 +1,8 @@
 <?php
 
-namespace mdm\admin\components;
+namespace barilee\yii2\auth\rbac\components;
 
-use mdm\admin\models\Route;
+use barilee\yii2\auth\rbac\models\Route;
 use Yii;
 use yii\caching\TagDependency;
 use yii\helpers\ArrayHelper;

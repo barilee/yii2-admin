@@ -1,7 +1,7 @@
 <?php
 
 use yii\db\Migration;
-use mdm\admin\components\Configs;
+use barilee\yii2\auth\rbac\components\Configs;
 
 class m160312_050000_create_user extends Migration
 {

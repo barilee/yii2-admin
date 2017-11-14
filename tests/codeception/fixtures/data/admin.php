@@ -1,13 +1,13 @@
 <?php
 
-use mdm\admin\components\Configs;
+use barilee\yii2\auth\rbac\components\Configs;
 
 /* @var $this tests\codeception\fixtures\AdminFixture */
 
 $migrations = [
     'm140506_102106_rbac_init' => '@yii/rbac/migrations',
-    'm140602_111327_create_menu_table' => '@mdm/admin/migrations',
-    'm160312_050000_create_user' => '@mdm/admin/migrations',
+    'm140602_111327_create_menu_table' => '@barilee/yii2/auth/rbac/migrations',
+    'm160312_050000_create_user' => '@barilee/yii2/auth/rbac/migrations',
 ];
 
 $command = $this->db->createCommand();
@@ -42,7 +42,7 @@ if ($schema->getTableSchema($authManager->ruleTable)) {
     $command->dropTable($authManager->ruleTable)->execute();
 }
 
-// mdm/admin
+// barilee/yii2/auth/rbac
 if ($schema->getTableSchema(Configs::menuTable())) {
     $command->dropTable(Configs::menuTable())->execute();
 }

@@ -1,8 +1,8 @@
 <?php
-namespace mdm\admin\models\form;
+namespace barilee\yii2\auth\rbac\models\form;
 
 use Yii;
-use mdm\admin\models\User;
+use barilee\yii2\auth\rbac\models\User;
 use yii\base\Model;
 
 /**
@@ -22,7 +22,7 @@ class PasswordResetRequest extends Model
             ['email', 'required'],
             ['email', 'email'],
             ['email', 'exist',
-                'targetClass' => 'mdm\admin\models\User',
+                'targetClass' => 'barilee\yii2\auth\rbac\models\User',
                 'filter' => ['status' => User::STATUS_ACTIVE],
                 'message' => 'There is no user with such email.'
             ],

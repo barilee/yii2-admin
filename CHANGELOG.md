@@ -89,3 +89,4 @@ Yii2 Admin Change Log
 - Chg: Set default layout to `null` (mdmunir).
 - Chg #53: Fixed typo. Change Role to Permission (mdmunir).
 - Chg: Simplify using layout (mdmunir).
+- Chg: Changed namespace from mdm\admin to barilee\yii2\auth\rbac

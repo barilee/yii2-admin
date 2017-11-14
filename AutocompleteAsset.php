@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin;
+namespace barilee\yii2\auth\rbac;
 
 use yii\web\AssetBundle;
 
@@ -15,7 +15,7 @@ class AutocompleteAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@mdm/admin/assets';
+    public $sourcePath = '@barilee/yii2/auth/rbac/assets';
     /**
      * @inheritdoc
      */

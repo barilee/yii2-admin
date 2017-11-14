@@ -8,11 +8,11 @@ return [
     'vendorPath' => dirname(dirname(dirname(__DIR__))) . '/vendor',
     'language' => 'en-US',
     'aliases' => [
-        '@mdm/admin' => dirname(dirname(dirname(__DIR__))),
+        '@barilee/yii2/auth/rbac' => dirname(dirname(dirname(__DIR__))),
     ],
     'modules' => [
         'admin' => [
-            'class' => 'mdm\admin\Module',
+            'class' => 'barilee\yii2\auth\rbac\Module',
         ]
     ],
     'controllerMap' => [
@@ -40,7 +40,7 @@ return [
                 'rbac-admin' => [
                     'class' => 'yii\i18n\PhpMessageSource',
                     'sourceLanguage' => 'en',
-                    'basePath' => '@mdm/admin/messages'
+                    'basePath' => '@barilee/yii2/auth/rbac/messages'
                 ]
             ]
         ]

@@ -2,10 +2,10 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-use mdm\admin\components\Helper;
+use barilee\yii2\auth\rbac\components\Helper;
 
 /* @var $this yii\web\View */
-/* @var $model mdm\admin\models\User */
+/* @var $model barilee\yii2\auth\rbac\models\User */
 
 $this->title = $model->username;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('rbac-admin', 'Users'), 'url' => ['index']];

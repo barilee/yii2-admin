@@ -1,6 +1,6 @@
 <?php
 
-use mdm\admin\components\Configs;
+use barilee\yii2\auth\rbac\components\Configs;
 
 /**
  * Migration table of table_menu

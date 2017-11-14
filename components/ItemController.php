@@ -1,10 +1,10 @@
 <?php
 
-namespace mdm\admin\components;
+namespace barilee\yii2\auth\rbac\components;
 
 use Yii;
-use mdm\admin\models\AuthItem;
-use mdm\admin\models\searchs\AuthItem as AuthItemSearch;
+use barilee\yii2\auth\rbac\models\AuthItem;
+use barilee\yii2\auth\rbac\models\searchs\AuthItem as AuthItemSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\base\NotSupportedException;

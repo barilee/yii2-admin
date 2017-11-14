@@ -1,10 +1,10 @@
 <?php
 
-namespace mdm\admin\models\form;
+namespace barilee\yii2\auth\rbac\models\form;
 
 use Yii;
 use yii\base\Model;
-use mdm\admin\models\User;
+use barilee\yii2\auth\rbac\models\User;
 
 /**
  * Login form
