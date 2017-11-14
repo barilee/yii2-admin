@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace barilee\yii2\auth\rbac\controllers;
 
 use Yii;
-use mdm\admin\models\Route;
+use barilee\yii2\auth\rbac\models\Route;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 
