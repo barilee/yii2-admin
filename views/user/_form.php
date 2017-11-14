@@ -5,7 +5,8 @@ use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
 /* @var $model barilee\yii2\auth\rbac\models\User */
-/* @var $form yii\widgets\ActiveForm */
+/* @var $form yii\widgets\ActiveForm */ 
+
 ?>
 
 <div class="user-form">
