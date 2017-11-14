@@ -1,15 +1,15 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace barilee\yii2\auth\rbac\controllers;
 
 use Yii;
-use mdm\admin\models\form\Login;
-use mdm\admin\models\form\PasswordResetRequest;
-use mdm\admin\models\form\ResetPassword;
-use mdm\admin\models\form\Signup;
-use mdm\admin\models\form\ChangePassword;
-use mdm\admin\models\User;
-use mdm\admin\models\searchs\User as UserSearch;
+use barilee\yii2\auth\rbac\models\form\Login;
+use barilee\yii2\auth\rbac\models\form\PasswordResetRequest;
+use barilee\yii2\auth\rbac\models\form\ResetPassword;
+use barilee\yii2\auth\rbac\models\form\Signup;
+use barilee\yii2\auth\rbac\models\form\ChangePassword;
+use barilee\yii2\auth\rbac\models\User;
+use barilee\yii2\auth\rbac\models\searchs\User as UserSearch;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
