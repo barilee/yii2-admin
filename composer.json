@@ -6,7 +6,8 @@
     "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/barilee/yii2-auth-rbac/issues",
-        "source": "https://github.com/barilee/yii2-auth-rbac"
+        "source": "https://github.com/barilee/yii2-auth-rbac",
+        "wiki": "https://github.com/barilee/yii2-auth-rbac/wiki"
     },
     "authors": [
         {
